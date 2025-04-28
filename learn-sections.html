@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Learn How to Earn</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #1e3c72, #2a5298);
+      color: #fff;
+      font-size: 16px;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      padding: 20px;
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.2);
+      backdrop-filter: blur(4px);
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      animation: fadeInDown 1s ease-in-out;
+    }
+
+    .section-title {
+      text-align: center;
+      margin: 50px 0;
+      font-size: 2rem;
+      font-weight: 600;
+    }
+
+    .section-container {
+      padding: 30px 50px;
+    }
+
+    .earnings-option {
+      background-color: #fff;
+      color: #2a5298;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s, background-color 0.3s;
+    }
+
+    .earnings-option:hover {
+      background-color: #2a5298;
+      color: #fff;
+      transform: scale(1.05);
+    }
+
+    .earnings-option h2 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+
+    .earnings-option p {
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+
+    .back-button {
+      display: block;
+      text-align: center;
+      margin-top: 30px;
+      padding: 10px 20px;
+      background-color: #fff;
+      color: #2a5298;
+      border: none;
+      border-radius: 20px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .back-button:hover {
+      background-color: #2a5298;
+      color: #fff;
+    }
+
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Learn How to Earn</h1>
+  </header>
+
+  <div class="section-container" id="ebooks">
+    <h2 class="section-title">Sell eBooks</h2>
+    <div class="earnings-option">
+      <h2>Writing & Selling eBooks</h2>
+      <p>Write eBooks on topics you are passionate about. Platforms like Amazon Kindle Direct Publishing (KDP) allow you to sell your work easily. Use creative designs and marketing strategies to maximize sales.</p>
+    </div>
+  </div>
+
+  <div class="section-container" id="courses">
+    <h2 class="section-title">Sell Courses</h2>
+    <div class="earnings-option">
+      <h2>Create and Sell Online Courses</h2>
+      <p>Share your knowledge! Create video or written courses on platforms like Udemy or Teachable. Help people learn new skills while earning passive income.</p>
+    </div>
+  </div>
+
+  <div class="section-container" id="freelancing">
+    <h2 class="section-title">Freelancing</h2>
+    <div class="earnings-option">
+      <h2>Offer Your Skills on Freelance Platforms</h2>
+      <p>Become a freelancer on platforms like Upwork, Fiverr, or Freelancer. Whether you’re a developer, designer, writer, or marketer, there’s always a demand for your services.</p>
+    </div>
+  </div>
+
+  <div class="section-container" id="youtube">
+    <h2 class="section-title">YouTube</h2>
+    <div class="earnings-option">
+      <h2>Start a YouTube Channel</h2>
+      <p>Create engaging videos, build a loyal audience, and earn money through ads, sponsorships, and affiliate links. Whether it's gaming, vlogging, or educational content, YouTube offers various monetization options.</p>
+    </div>
+  </div>
+
+  <div class="section-container" id="affiliate">
+    <h2 class="section-title">Affiliate Marketing</h2>
+    <div class="earnings-option">
+      <h2>Earn with Affiliate Marketing</h2>
+      <p>Promote products or services and earn commissions on sales through affiliate marketing programs like Amazon Associates or ClickBank. It's an excellent way to monetize your blog or social media presence.</p>
+    </div>
+  </div>
+
+  <div class="section-container" id="consulting">
+    <h2 class="section-title">Consulting</h2>
+    <div class="earnings-option">
+      <h2>Consulting & Coaching</h2>
+      <p>If you are an expert in your field, you can offer consulting or coaching services. Charge clients for your advice or guidance on a per-hour or project basis.</p>
+    </div>
+  </div>
+
+  <div class="section-container">
+    <button class="back-button" onclick="window.history.back()">Back to Main</button>
+  </div>
+
+</body>
+</html>
